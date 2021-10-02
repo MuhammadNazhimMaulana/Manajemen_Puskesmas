@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
                 <h1><span>Selamat </span> Datang
-                    <h3><a href="<?= base_url("user/ profile") ?>"><span style="  color: var(--blue);"><?php
+                    <h3><a href="<?= base_url("user/profile") ?>"><span style="  color: var(--blue);"><?php
                                                             if (!empty(session()->get('firstname'))) {
                                                                 echo session()->get('firstname');
                                                                 $email = session()->get('email');
