@@ -31,7 +31,7 @@
     <div class="container mt-5 pr-5">
         <div class="row  align-items-center text-center text-md-left">
             <div class="col-md-6 pr-md-5" data-aos="zoom-in">
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/Doctors.png" width="100%" alt="">
+                <img src="<?= base_url('General/images/Doctors.png') ?>" width="100%" alt="">
             </div>
             <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
                 <h1><span>Tetap </span> aman, <span>tetap</span> sehat.</h1>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class=" col-md-6 d-none d-md-block" data-aos="fade-left">
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/about.png" width="100%" alt="">
+                <img src="<?= base_url('General/images/about.png') ?>" width="100%" alt="">
             </div>
         </div>
     </div>
@@ -78,28 +78,28 @@
         <h1 class="heading"><span>'</span>Fasilitas Kami<span>'</span></h1>
         <div class="box-container">
             <div class="box" data-aos="zoom-in">
-                <a href="http://localhost/manajemen_puskesmas/public/General/images/fasilitas.jpg" title="Fasilitas">
-                    <img src="http://localhost/manajemen_puskesmas/public/General/images/fasilitas.jpg" alt="">
+                <a href="<?= base_url('General/images/fasilitas.jpg') ?>" title="Fasilitas">
+                    <img src="<?= base_url('General/images/fasilitas.jpg') ?>" alt="">
                 </a>
             </div>
             <div class="box" data-aos="zoom-in">
-                <a href="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 2.jpg" title="Ruang Kimia">
-                    <img src="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 2.jpg" alt="">
+                <a href="<?= base_url('General/images/fasilitas 2.jpg') ?>" title="Ruang Kimia">
+                    <img src="<?= base_url('General/images/fasilitas 2.jpg') ?>" alt="">
                 </a>
             </div>
             <div class="box" data-aos="zoom-in">
-                <a href="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 2.jpg" title="Ruang Kimia">
-                    <img src="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 2.jpg" alt="">
+                <a href="<?= base_url('General/images/fasilitas 2.jpg') ?>" title="Ruang Kimia">
+                    <img src="<?= base_url('General/images/fasilitas 2.jpg') ?>" alt="">
                 </a>
             </div>
             <div class="box" data-aos="zoom-in">
-                <a href="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 3.jpg" title="Koridor">
-                    <img src="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 3.jpg" alt="">
+                <a href="<?= base_url('General/images/fasilitas 3.jpg') ?>" title="Koridor">
+                    <img src="<?= base_url('General/images/fasilitas 3.jpg') ?>" alt="">
                 </a>
             </div>
             <div class="box" data-aos="zoom-in">
-                <a href="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 4.jpg" title="Operasi">
-                    <img src="http://localhost/manajemen_puskesmas/public/General/images/fasilitas 4.jpg" alt="">
+                <a href="<?= base_url('General/images/fasilitas 4.jpg') ?>" title="Operasi">
+                    <img src="<?= base_url('General/images/fasilitas 4.jpg') ?>" alt="">
                 </a>
             </div>
         </div>
@@ -118,19 +118,19 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 <h3>Nama orang</h3>
                 <span>Mei 10, 2021</span>
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/pic1.jpg" alt="">
+                <img src="<?= base_url('General/images/pic1.jpg') ?>" alt="">
             </div>
             <div class="box" data-aos="fade-up">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 <h3>Nama orang</h3>
                 <span>Mei 10, 2021</span>
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/pic2.jpg" alt="">
+                <img src="<?= base_url('General/images/pic2.jpg') ?>" alt="">
             </div>
             <div class="box" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 <h3>Nama orang</h3>
                 <span>Mei 10, 2021</span>
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/pic3.jpg" alt="">
+                <img src="<?= base_url('General/images/pic3.jpg') ?>" alt="">
             </div>
         </div>
     </div>
@@ -217,7 +217,7 @@
 
         <div class="box-container">
             <div class="box" data-aos="fade-right">
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/img1.jpg" alt="">
+                <img src="<?= base_url('General/images/img1.jpg') ?>" alt="">
                 <div class="content">
                     <span>Jan 5, 2021</span>
                     <a href="">
@@ -228,7 +228,7 @@
                 </div>
             </div>
             <div class="box" data-aos="fade-up">
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/img2.jpg" alt="">
+                <img src="<?= base_url('General/images/img2.jpg') ?>" alt="">
                 <div class="content">
                     <span>Jan 5, 2021</span>
                     <a href="">
@@ -239,7 +239,7 @@
                 </div>
             </div>
             <div class="box" data-aos="fade-left">
-                <img src="http://localhost/manajemen_puskesmas/public/General/images/img3.jpg" alt="">
+                <img src="<?= base_url('General/images/img3.jpg') ?>" alt="">
                 <div class="content">
                     <span>Jan 5, 2021</span>
                     <a href="">

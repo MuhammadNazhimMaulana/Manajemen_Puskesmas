@@ -2,7 +2,7 @@
 
 <head>
     <!-- CSS Custom -->
-    <link href="http://localhost/manajemen_puskesmas/public/General/css/login_user.css" rel="stylesheet">
+    <link href="<?= ('public/General/css/login_user.css') ?>" rel="stylesheet">
 
     <!-- Link untuk font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +13,7 @@
 <body>
     <div class="login-div">
         <div class="logo">
-            <img src="http://localhost/manajemen_puskesmas/public/General/images/Doctors.png" alt="">
+            <img src="<?= ('public/General/images/Doctors.png') ?>" alt="">
         </div>
 
         <div class="title">Login User</div>

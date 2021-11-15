@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
     <!-- oofline bootstrap -->
-    <link href="http://localhost/manajemen_puskesmas/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url('bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
     <!-- File CSS custom -->
-    <link rel="stylesheet" href="http://localhost/manajemen_puskesmas/public/General/css/style.css">
+    <link rel="stylesheet" href="<?= base_url('public/General/css/style.css') ?>">
 </head>
 
 <body>
@@ -106,7 +106,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
 
     <!-- Custom JS -->
-    <script src="http://localhost/manajemen_puskesmas/public/General/js/main.js"></script>
+    <script src="<?= base_url('public/General/js/main.js') ?>"></script>
 
 
     <script>

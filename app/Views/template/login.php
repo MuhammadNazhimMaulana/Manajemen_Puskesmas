@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap Offline -->
-    <link href="http://localhost/manajemen_puskesmas/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url('bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
     <!-- CSS Custom -->
-    <link href="http://localhost/manajemen_puskesmas/public/General/css/login.css" rel="stylesheet">
+    <link href="<?= base_url('General/css/login.css') ?>" rel="stylesheet">
 
     <!-- Untuk Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">

@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
     <!-- Link menuju CSS -->
-    <link rel="stylesheet" href="http://localhost/manajemen_puskesmas/public/General/css/side.css">
+    <link rel="stylesheet" href="<?= base_url('public/General/css/side.css') ?>">
 
     <!-- oofline bootstrap -->
-    <link href="http://localhost/manajemen_puskesmas/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url('bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
 
 </head>
@@ -40,7 +40,7 @@
 
     <div class="sidebar">
         <center>
-            <img src="http://localhost/manajemen_puskesmas/public/General/images/Doctors.png" class="profile_image" width="100px" alt="">
+            <img src="<?= base_url('General/images/Doctors.png') ?>" class="profile_image" width="100px" alt="">
             <h4><?php
                 if (!empty(session()->get('username'))) {
                     echo session()->get('username');
@@ -82,8 +82,8 @@
         </div>
     </div>
 
-        <!-- ofline JS Bootstrap -->
-        <link href="http://localhost/manajemen_puskesmas/bootstrap/js/bootstrap.min.js" rel="stylesheet">
+    <!-- ofline JS Bootstrap -->
+    <link href="<?= ('bootstrap/js/bootstrap.min.js') ?>" rel="stylesheet">
 
 </body>
 
